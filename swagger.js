@@ -5,8 +5,8 @@ const doc = {
         title: 'Workforce Directory API',
         description: 'API for managing workforce contacts and employees',
     },
-    host: 'localhost:8080',
-    schemes: ['http', 'https'],
+    host: 'workforce-mongodb-api.onrender.com',
+    schemes: ['https'],
 };
 
 const outputFile = './swagger.json';

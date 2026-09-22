@@ -5,10 +5,9 @@
     "description": "API for managing workforce contacts and employees",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "workforce-mongodb-api.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
@@ -32,7 +31,7 @@
         }
       }
     },
-    "/contact/": {
+    "/contacts/": {
       "get": {
         "description": "",
         "produces": [
@@ -97,7 +96,7 @@
         }
       }
     },
-    "/contact/{id}": {
+    "/contacts/{id}": {
       "get": {
         "description": "",
         "produces": [
@@ -204,7 +203,7 @@
         }
       }
     },
-    "/employee/": {
+    "/employees/": {
       "get": {
         "description": "",
         "produces": [
@@ -257,7 +256,7 @@
         }
       }
     },
-    "/employee/{id}": {
+    "/employees/{id}": {
       "get": {
         "description": "",
         "produces": [
